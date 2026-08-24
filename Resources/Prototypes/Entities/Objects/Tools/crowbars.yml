@@ -176,3 +176,16 @@
       - state: equipped-BELT
       - state: cover-equipped-BELT
         color: "#968000"
+
+- type: entity
+  parent: BaseCrowbar
+  id: MyCoolCrowbar
+  name: My cool crowbar
+  description: Hello, this is my cool crowbar, i like it alot!
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    storedSprite:
+      sprite: Objects/Tools/crowbar.rsi
+      state: storage
